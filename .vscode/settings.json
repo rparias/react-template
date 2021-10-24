@@ -7,6 +7,5 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "prettier.semi": false
-} 
+  "editor.formatOnSave": true
+}

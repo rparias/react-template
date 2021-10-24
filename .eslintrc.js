@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'standard',
@@ -9,18 +9,18 @@ module.exports = {
     'react-app/jest',
     'plugin:react/recommended',
     'plugin:testing-library/react',
-    'plugin:jest-dom/recommended',
+    'plugin:jest-dom/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', 'testing-library', 'jest-dom'],
   rules: {
     semi: ['error', 'never'],
-    'space-before-function-paren': ['error', 'never'],
-  },
+    'space-before-function-paren': ['error', 'never']
+  }
 }
