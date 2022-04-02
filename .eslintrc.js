@@ -1,12 +1,11 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    jest: true
   },
   extends: [
     'standard',
-    'react-app',
-    'react-app/jest',
     'plugin:react/recommended',
     'plugin:testing-library/react',
     'plugin:jest-dom/recommended'
@@ -21,6 +20,7 @@ module.exports = {
   plugins: ['react', 'testing-library', 'jest-dom'],
   rules: {
     semi: ['error', 'never'],
-    'space-before-function-paren': ['error', 'never']
+    'space-before-function-paren': ['error', 'never'],
+    'react/react-in-jsx-scope': 'off'
   }
 }
